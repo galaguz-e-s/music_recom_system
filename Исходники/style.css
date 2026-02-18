@@ -1,0 +1,167 @@
+button.like_btn {
+	border: none;
+	width: 1.0em;
+	height: 1.5em;
+	vertical-align: top;
+	background-color: transparent;
+	font-size: 3em;
+	color: #D6D6D6;
+	transition: all 0.3s;
+}
+
+button.like_btn:hover {
+	color: red;
+}
+
+button.like_btn.liked {
+	color: red;
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#main_container {
+	font-size: 1.0em;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin-top: 0;
+	z-index: 2
+}
+
+#inside_container {
+	background-color: white;
+	padding: 2.0em;
+	max-width: 1140px;
+	min-height: 300px;
+	margin: 0 auto;
+}
+
+img.album {
+	width: 4.0em;
+	height: 4.0em;
+	border-radius: 1em;
+}
+
+td {
+	padding: 0.5em 1.5em;
+}
+
+tr {
+	outline: thin solid black;
+	padding: 1.5em;
+}
+
+ul {
+	margin: 0 !important;
+}
+
+.header {
+	background-color: #4A4A4A;
+	position: sticky;
+	top: 0px;
+	z-index: 6;
+	width: 100%;
+	color: white;
+}
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu__list {
+	display: flex;
+	list-style: none;
+	justify-content: flex-end;
+}
+
+a {
+	text-decoration: none;
+}
+
+.menu__list-link {
+	padding: 1em 2em 1em 2em;
+	font-size: 1.5em;
+	color: white;
+	cursor: pointer;
+	transition: all 0.1s;
+	display: block;
+	width: 100%;
+}
+
+.menu__list-link:hover {
+	background-color: white;
+	color: #4A4A4A;
+}
+
+figure.icon {
+	padding: 1em;
+	margin: 0 0;
+}
+
+.icon-button {
+	background-image: url('img_assets/user_icon.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	width: 5em;
+	height: 5em;
+	border: none;
+	border-radius: 2.5em;
+	transition: all 0.1s;
+}
+
+.icon-button:hover {
+	outline: solid white 0.5em;
+}
+
+input {
+	width: 100%;
+}
+
+.playlists__list {
+	list-style: none;
+	padding: 0em 0.1em
+}
+
+.playlist__item {
+	width: 100%;
+	height: 10em;
+	background-color: #8A8A8A;
+	margin: 2em 0;
+	border-radius: 1em;
+	padding: 1em;
+	display: flex;
+	justify-content: space-between;
+	cursor: pointer;
+	font-weight: bold;
+	border: none;
+}
+
+.playlist__item:hover {
+	background: linear-gradient(to right, #8A8A8A 30em, #D6D6D6 96%);
+}
+
+img.playlist {
+	width: 8.0em;
+	height: 8.0em;
+	border-radius: 1em;
+	margin-right: 3em;
+	outline: solid white 0.35em;
+	vertical-align: middle;
+}
+
+.playlist__name {
+	font-size: 2em;
+	vertical-align: middle;
+	color: white;
+}
+
+.modal.modal-xl {
+	--bs-modal-width: 1140px;
+}
